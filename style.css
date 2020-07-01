@@ -1,0 +1,78 @@
+/* Carousel height */
+.carousel-item{
+    max-height: 450px;
+    height: auto;
+}
+/* Aligning text for elements */
+.h3-push h3, #contact h5, #contact p, #form-id input {
+    text-align: center;
+}
+#social ul li {
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+/* styling images in card option */
+.img-style {
+    height: 14rem;
+    position: relative;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card:hover .img-style {
+    transform: scale(1.1);
+}
+
+/* Working with the footer */
+
+/* Logo handling  */
+#logo h3 {
+	font-weight: bold;
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+#logo h3 span {
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	animation: animate1 2s linear infinite;
+}
+#logo h3 span:nth-child(1) {
+	animation-delay: 0s;
+}
+#logo h3 span:nth-child(2) {
+	animation-delay: 0.2s;
+}
+#logo h3 span:nth-child(3) {
+	animation-delay: 0.4s;
+}
+#logo h3 span:nth-child(4) {
+	animation-delay: 0.6s;
+}
+#logo h3 span:nth-child(5) {
+	animation-delay: 0.8s;
+}
+@keyframes animate1 {
+	0%, 100%{
+		color: #fff;
+		filter: blur(2px);
+		text-shadow: 0 0 10px #00b3ff,
+					0 0 20px #00b3ff,
+					0 0 40px #00b3ff,
+					0 0 80px #00b3ff,
+					0 0 120px #00b3ff,
+					0 0 200px #00b3ff,
+					0 0 300px #00b3ff,
+					0 0 10px #00b3ff;
+	}
+	5%, 95%{
+		color: rgb(37, 196, 22);
+		filter: blur(0px);
+		text-shadow:none;
+	}
+}
