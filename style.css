@@ -28,6 +28,11 @@ html {
 	max-width: 18rem;
 	width: auto;
 }
+@media (max-width: 600px){
+	.card{
+		width: 100%;
+	}
+}
 .card:hover .img-style {
     transform: scale(1.1);
 }
